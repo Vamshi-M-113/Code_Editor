@@ -1,2 +1,2 @@
 # Code_Editor
-Created a code editor website for deploying it in ASW-EC2
+Created a code editor website for deploying it in AWs-EC2
