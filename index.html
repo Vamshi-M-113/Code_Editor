@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Code Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Online Code Editor</h1>
+
+  <div class="container">
+    <div class="editor">
+      <h3>HTML</h3>
+      <textarea id="htmlCode" placeholder="Write HTML here..."></textarea>
+    </div>
+
+    <div class="editor">
+      <h3>CSS</h3>
+      <textarea id="cssCode" placeholder="Write CSS here..."></textarea>
+    </div>
+
+    <div class="editor">
+      <h3>JavaScript</h3>
+      <textarea id="jsCode" placeholder="Write JavaScript here..."></textarea>
+    </div>
+  </div>
+
+  <div class="buttons">
+    <button onclick="runCode()">Run</button>
+    <button onclick="clearCode()">Clear</button>
+  </div>
+
+  <h3>Output:</h3>
+  <iframe id="output"></iframe>
+
+  <script src="script.js"></script>
+</body>
+</html>
